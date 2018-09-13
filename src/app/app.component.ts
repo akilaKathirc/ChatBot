@@ -15,5 +15,6 @@ export class AppComponent {
               public threadsService: ThreadsService,
               public usersService: UsersService) {
     ChatExampleData.init(messagesService, threadsService, usersService);
+      public ChatName:string;
   }
 }
