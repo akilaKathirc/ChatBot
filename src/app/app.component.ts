@@ -11,10 +11,10 @@ import { MessagesService } from './message/messages.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  public AkilaObj:any;
     constructor(public messagesService: MessagesService,
               public threadsService: ThreadsService,
               public usersService: UsersService) {
     ChatExampleData.init(messagesService, threadsService, usersService);
-      public ChatName:string;
-  }
+        }
 }
